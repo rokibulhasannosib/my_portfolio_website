@@ -64,18 +64,24 @@ section{
     padding: 100px 200px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main{
-    position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(Image/bg1.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background: url("Image/bg1.svg") center / cover no-repeat;
 }
+
+section{
+    padding: 6rem 10vw;
+}
+
 
 .main .content{
     max-width: 800px;
@@ -717,6 +723,7 @@ section{
     transition: all 0.3s ease;
 
   }
+
 
 
 
