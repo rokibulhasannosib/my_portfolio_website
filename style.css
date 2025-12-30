@@ -438,7 +438,7 @@ section{
 }
 
 .work .content .card .card-img img:hover{
-    transform: scale(16.9);
+    transform: scale(1.2);
 }
 
 
@@ -717,4 +717,5 @@ section{
     transition: all 0.3s ease;
 
   }
+
 
